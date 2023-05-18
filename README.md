@@ -1,11 +1,11 @@
 # Hackintosh-EFI
 
 ## 本机信息
-当前引导是基于OpenCore 0.9.2配置， 平稳运行与Ventrua13.3.1
-Cpu为 intel i5 10500 comet lake 架构
-Gpu为 AMD rx580
-主板为 微星 B460M 迫击炮
-博通的蓝牙 wifi模块
+1. 当前引导是基于OpenCore 0.9.2配置， 平稳运行与Ventrua13.3.1
+2. Cpu为 intel i5 10500 comet lake 架构
+3. Gpu为 AMD rx580
+4. 主板为 微星 B460M 迫击炮
+5. 博通的蓝牙 wifi模块
 
 ## 参考文档和视频
 ### OpenCore
