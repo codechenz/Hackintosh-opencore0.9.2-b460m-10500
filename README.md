@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=e-J3yM7tfos
 采用 https://www.youtube.com/watch?v=8ztViUoN8h8 可修复
 
 2. 前面板USB2.0 未适配
-暂无方案
+暂无方案， 可能是需要处理 Kexts中的 USBPorts 更换成 USBinjectAll，后期可以尝试一下
 
 3. 无法睡眠
 暂无方案
