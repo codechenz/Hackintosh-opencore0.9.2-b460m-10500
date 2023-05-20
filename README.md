@@ -29,11 +29,11 @@ https://www.youtube.com/watch?v=e-J3yM7tfos
 8. Enjoy your macOS！
 
 ## 当前存在问题
-1. Wifi蓝牙未适配当前系统
-采用 https://www.youtube.com/watch?v=8ztViUoN8h8 可修复
+~~1. Wifi蓝牙未适配当前系统~~
+~~采用 https://www.youtube.com/watch?v=8ztViUoN8h8 可修复~~
 
-2. 前面板USB2.0 未适配
-暂无方案， 可能是需要处理 Kexts中的 USBPorts 更换成 USBinjectAll，后期可以尝试一下
+~~2. 前面板USB2.0 未适配~~
+~~暂无方案， 可能是需要处理 Kexts中的 USBPorts 更换成 USBinjectAll，后期可以尝试一下~~
 
 3. 无法睡眠
 暂无方案
