@@ -5,7 +5,12 @@
 2. Cpu为 intel i5 10500 comet lake 架构
 3. Gpu为 AMD rx580
 4. 主板为 微星 B460M 迫击炮
-5. 博通的蓝牙 wifi模块
+5. 博通BCM94360CD WiFi 蓝牙 模块。
+
+## 2023年5月20日更新
+1. 修复WiFi失效问题，主要参考open core文档，下载博通网卡内核，并按照顺序排列config文件，并且更换pcie 插槽，怀疑是layout中布局问题，导致无法找到之前的pcie插槽，需要继续调研一下
+2. 修复蓝牙失效问题，下载博通相应内核后，删除USBPorts内核，更换回USBinjectAll内核。主要原因就是USBPort内核影响了蓝牙。后期需要更新为USBTool并手动匹配所有USB接口。
+3. 删除Boot-arg中的 跑码模式，后期需要更换为界面选择系统
 
 ## 参考文档和视频
 ### OpenCore
