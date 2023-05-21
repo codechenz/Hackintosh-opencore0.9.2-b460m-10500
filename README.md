@@ -7,10 +7,14 @@
 4. 主板为 微星 B460M 迫击炮
 5. 博通BCM94360CD WiFi 蓝牙 模块。
 
+##2023年5月21日更新
+1. 删除启动跑码模式，使用GUI界面
+2. 使用USBToolBox 手动mapping usb端口。
+
 ## 2023年5月20日更新
 1. 修复WiFi失效问题，主要参考open core文档，下载博通网卡内核，并按照顺序排列config文件，并且更换pcie 插槽，怀疑是layout中布局问题，导致无法找到之前的pcie插槽，需要继续调研一下
-2. 修复蓝牙失效问题，下载博通相应内核后，删除USBPorts内核，更换回USBinjectAll内核。主要原因就是USBPort内核影响了蓝牙。后期需要更新为USBTool并手动匹配所有USB接口。
-3. 删除Boot-arg中的 跑码模式，后期需要更换为界面选择系统
+~~2. 修复蓝牙失效问题，下载博通相应内核后，删除USBPorts内核，更换回USBinjectAll内核。主要原因就是USBPort内核影响了蓝牙。后期需要更新为USBTool并手动匹配所有USB接口。~~
+~~3. 删除Boot-arg中的 跑码模式，后期需要更换为界面选择系统~~
 
 ## 参考文档和视频
 ### OpenCore
@@ -28,7 +32,7 @@ https://www.youtube.com/watch?v=e-J3yM7tfos
 7. 最后系统打开后，使用OpenCore Configrator等工具，将制作好的EFI文件挂载到系统中
 8. Enjoy your macOS！
 
-## 当前存在问题
+## 当前存在问题 TODO
 ~~1. Wifi蓝牙未适配当前系统~~
 ~~采用 https://www.youtube.com/watch?v=8ztViUoN8h8 可修复~~
 
@@ -37,3 +41,5 @@ https://www.youtube.com/watch?v=e-J3yM7tfos
 
 3. 无法睡眠
 暂无方案
+
+4. 是否可以删除博通的kexts
